@@ -61,6 +61,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				freight: {
+					orange: 'hsl(var(--freight-orange))',
+					'orange-foreground': 'hsl(var(--freight-orange-foreground))',
+					navy: 'hsl(var(--freight-navy))',
+					'navy-foreground': 'hsl(var(--freight-navy-foreground))',
+					success: 'hsl(var(--freight-success))',
+					warning: 'hsl(var(--freight-warning))',
+					danger: 'hsl(var(--freight-danger))'
 				}
 			},
 			borderRadius: {

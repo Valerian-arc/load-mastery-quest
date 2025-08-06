@@ -8,20 +8,29 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 218 23% 96%;
+    --foreground: 220 15% 12%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 220 15% 12%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 220 15% 12%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 214 84% 56%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 220 14% 93%;
+    --secondary-foreground: 220 15% 12%;
+
+    /* Freight-specific colors */
+    --freight-orange: 25 95% 53%;
+    --freight-orange-foreground: 0 0% 100%;
+    --freight-navy: 220 84% 19%;
+    --freight-navy-foreground: 0 0% 100%;
+    --freight-success: 120 84% 45%;
+    --freight-warning: 38 92% 50%;
+    --freight-danger: 0 84% 60%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
